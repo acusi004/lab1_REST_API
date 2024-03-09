@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangKy"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="15dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DANG KY"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginBottom="100dp"
+        />
+
+    <EditText
+        android:id="@+id/edt_dk_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:background="@drawable/edt_login"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/edt_dk_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edt_login"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_SignUp"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:text="SIGN UP"
+        android:layout_marginTop="20dp"
+        app:backgroundTint="@null"
+        android:textColor="@color/black"
+        android:background="@drawable/edt_login"
+        />
+
+</LinearLayout>

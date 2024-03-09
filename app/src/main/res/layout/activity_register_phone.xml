@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterPhone"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edt_dk_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="phone"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edt_login"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_getOTP"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="GET OTP"
+        android:layout_marginTop="20dp"
+        app:backgroundTint="@null"
+        android:textColor="@color/black"
+        android:background="@drawable/edt_login"
+
+        />
+    <EditText
+        android:id="@+id/edt_dk_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="OTP"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/edt_login"
+        android:padding="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn_otp_login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="LOGIN"
+        android:layout_marginTop="20dp"
+        app:backgroundTint="@null"
+        android:textColor="@color/black"
+        android:background="@drawable/edt_login"
+        />
+</LinearLayout>
